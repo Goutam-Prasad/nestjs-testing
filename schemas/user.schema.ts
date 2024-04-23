@@ -10,6 +10,9 @@ export class User {
   place: string;
 
   @Prop({required:true})
+  p: string;
+
+  @Prop({required:true})
   name: string;
 
   @Prop({required:true})
