@@ -9,6 +9,13 @@ export class User {
   @Prop({required:true})
   place: string;
 
+
+
+
+  @Prop({required:true})
+  test: string;
+  
+
   @Prop({required:true})
   name: string;
 
